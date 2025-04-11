@@ -44,8 +44,8 @@ if st.button("Predict Stroke Risk"):
     
     st.subheader(f"🩺 Predicted Stroke Risk Level: **{risk_label}**")
     if risk_label == "High":
-        st.error("⚠️ High Risk! Please consult a doctor.")
+        st.error("⚠️ High Risk! Please consult a doctor.Maintain a healthy diet. exercise regularly.")
     elif risk_label == "Medium":
-        st.warning("⚠️ Medium Risk. Monitor health regularly.")
+        st.warning("⚠️ Medium Risk. Monitor health regularly.Avoid saturated fat and salt.")
     else:
-        st.success("✅ Low Risk. Maintain a healthy lifestyle.")
+        st.success("✅ Low Risk. Everything is normal .Maintain a healthy lifestyle.")
